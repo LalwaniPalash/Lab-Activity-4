@@ -7,7 +7,7 @@ userinput = None
 
 while userinput is None:
 	try: 
-		userinput = str(input("Enter a string: ")).lower()
+		userinput = str(input("Enter a string: "))
 	except ValueError:
 		print("Error: Invalid Input!")
 
